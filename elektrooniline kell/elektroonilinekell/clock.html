@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektrooniline Kell</title>
+    <link rel="stylesheet" href="clock.css">
+    <script src="clock.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="clock-container">
+        <h1>Elektrooniline Kell</h1>
+        <div id="clock"></div>
+        <div id="date"></div>
+        <div id="day"></div>
+        <input type="range" id="size-slider" min="50" max="200" value="100">
+        <div id="controls">
+            <label for="color-picker">Teksti värv:</label>
+            <input type="color" id="color-picker">
+            <label for="bg-color-picker">Taustavärv:</label>
+            <input type="color" id="bg-color-picker">
+            <button class="modern-button" id="toggle-seconds">Näita/Peida sekundid</button>
+            <button class="modern-button" id="toggle-format">Vaheta AM/PM ja 24h</button>
+            <button class="modern-button" id="toggle-language">Vaheta keelt</button>
+            <button class="modern-button" id="change-background">Vaheta taustapilt</button>
+        </div>
+        <p>Autor: Jan Aaron Einloo</p>
+        <p><a href="https://github.com/janeinloo/1kodutoo" target="_blank">Vaata koodi GitHubis</a></p>
+    </div>
+</body>
+</html>

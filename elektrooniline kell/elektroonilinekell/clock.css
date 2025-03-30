@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clock {
+    font-size: 10vw;
+    font-weight: bold;
+}
+
+#date, #day {
+    font-size: 3vw;
+    margin-top: 10px;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+input[type="color"], input[type="range"] {
+    margin: 10px;
+    padding: 5px;
+}
+
+.modern-button {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.modern-button:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
+
+.modern-button:active {
+    transform: scale(0.95);
+}
